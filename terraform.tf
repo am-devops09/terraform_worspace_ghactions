@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform-workspaces-mvone"
-    key = "terraform.tfstate"
+    key    = "terraform.tfstate"
     region = "us-east-1"
   }
 }

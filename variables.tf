@@ -9,6 +9,6 @@ variable "instance_type" {
 }
 
 variable "region" {
-  type = string
+  type        = string
   description = "region "
 }
